@@ -1,0 +1,14 @@
+img{
+    height: 9%;
+    width: 8%;
+  
+}
+.container{
+   background-color: #DEBF23;
+}
+nav{
+    background-color: #DEBF23;
+}
+li{
+    list-style: none;
+}

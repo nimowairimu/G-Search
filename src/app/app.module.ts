@@ -9,6 +9,7 @@ import { UserComponent } from './user/user.component';
 import { ReposComponent } from './repos/repos.component';
 import { SearchComponent } from './search/search.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     UserComponent,
     ReposComponent,
     SearchComponent,
-    NavbarComponent
+    NavbarComponent,
+    NotFoundComponent
 
   ],
   imports: [
