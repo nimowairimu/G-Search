@@ -1,0 +1,14 @@
+.whole{
+    background-color: #6f2232;
+    position:relative; 
+
+    
+}
+.card{
+   width: 80%; 
+}
+.heading{
+    font-family: 'Permanent Marker', cursive;
+font-size: 40px;
+color: #FF652F;
+}
