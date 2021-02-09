@@ -5,7 +5,7 @@ import { RepoService } from './repo.service';
 describe('RepoService', () => {
 
   beforeEach(() =>
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({}))
 
   it('should be created', () => {
     const service: RepoService = TestBed.get(RepoService);
