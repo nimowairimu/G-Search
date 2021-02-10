@@ -1,3 +1,6 @@
-.card-deck .card {
-max-width: calc(25% - 30px);
+.card-deck .card{
+width: 18rem;
+}
+h2{
+font-family: Sacramento;
 }
