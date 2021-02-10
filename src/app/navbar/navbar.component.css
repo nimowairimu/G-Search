@@ -1,13 +1,12 @@
-img{
-    height: 9%;
-    width: 8%;
-  
-}
+
 .container{
-   background-color: #DEBF23;
+   background-color:#ACA4DB;
+   height: 50px;
+   text-align: center;
+   float: left;
 }
 nav{
-    background-color: #DEBF23;
+    background-color: #ACA4DB;
 }
 li{
     list-style: none;
