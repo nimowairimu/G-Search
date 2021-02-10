@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class RepoService {
   _URL='http://api.github.com/users/';
-  token = '?access_token=' +environment.apiKey;
+  token = '?client_id=' +environment.apiKey;
   
 
   constructor(public http: HttpClient  ) { 

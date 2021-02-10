@@ -26,7 +26,7 @@ export class UserService {
       created_at : Date;
       public_repos: any
      }
-     let searchEndpoint = "https://api.github.com/users/"+username+"?access_token="+environment.apiKey;
+     let searchEndpoint = "https://api.github.com/users/"+username+"?client_id="+environment.apiKey;
     let promise = new Promise<void>((resolve,reject)=>{
       this.users = [];
       this.http.get<ApiResponse>(searchEndpoint).toPromise().then(
