@@ -5,10 +5,18 @@
     
 }
 .card{
-   width: 80%; 
+   width: 80%;
 }
 .heading{
     font-family: 'Permanent Marker', cursive;
 font-size: 40px;
-color: #FF652F;
+color: #E5BEBE;
+}
+
+.cardprofile{
+background-color: #E5BEBE;
+}
+.textinfo{
+    background-color:#E5BEBE ;
+    font-family: 
 }
