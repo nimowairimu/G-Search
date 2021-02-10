@@ -1,10 +1,10 @@
 <div class="whole">
-    <h2 class="text-center pt-5 heading" appChangeColor>Repo Search</h2>
+    <h2 class="text-center pt-5 heading" appHighlight>Repo Search</h2>
     <app-search (emitUserName) = "findRepo($event)"></app-search>
     <div class="container-fluid  card-columns pt-5">
         <div class="card text-black" *ngFor="let repo of userRepos" >
           <div class="card">
-            <div class="card-header text-center "><h2 appChangeColor>{{repo.name}}</h2></div>
+            <div class="card-header text-center "><h2 appHighlight>{{repo.name}}</h2></div>
             <div class="card-body">
               <p>{{repo.description}}</p>
               <p>{{repo.language}}</p>
