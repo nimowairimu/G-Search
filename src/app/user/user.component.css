@@ -1,8 +1,6 @@
 .whole{
-    background-color: #6f2232;
-    position:relative; 
 
-    
+    position:relative 
 }
 .card{
    width: 80%;
@@ -15,8 +13,4 @@ color: #E5BEBE;
 
 .cardprofile{
 background-color: #E5BEBE;
-}
-.textinfo{
-    background-color:#E5BEBE ;
-    font-family: 
 }
