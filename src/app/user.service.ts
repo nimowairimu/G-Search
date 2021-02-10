@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class UserService {
-  users :User[]=[];
+  users :User[] = [];
 
 
   constructor(private http:HttpClient) {
@@ -30,9 +30,9 @@ export class UserService {
     let promise = new Promise<void>((resolve,reject)=>{
       this.users = [];
       this.http.get<ApiResponse>(searchEndpoint).toPromise().then(
-        (results)=>{
-        this.users.push(results);
-        console.log(results)
+        (response)=>{
+        this.users.push(response);
+        console.log(response)
         resolve();
 
       }, error =>{
