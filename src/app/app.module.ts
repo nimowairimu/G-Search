@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightDirective } from './highlight.directive';
+import { DatePipe } from './date.pipe';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HighlightDirective } from './highlight.directive';
     SearchComponent,
     NavbarComponent,
     NotFoundComponent,
-    HighlightDirective
+    HighlightDirective,
+    DatePipe
 
   ],
   imports: [
